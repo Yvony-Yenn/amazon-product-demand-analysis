@@ -25,3 +25,5 @@ During the data preprocessing stage, several columns that were not relevant to t
 | Count of retrieved live offers: New, FBM | Number of new offers fulfilled by merchants |
 | Lightning Deals: Upcoming Deal | Indicator of upcoming Lightning Deals |
 | Buy Box: Is FBA | Indicator whether the Buy Box seller uses FBA |
+
+Note: The PRICE variable used in the analysis has been log-transformed to reduce skewness and stabilize the distribution before modeling.
