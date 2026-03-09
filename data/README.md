@@ -26,4 +26,5 @@ During the data preprocessing stage, several columns that were not relevant to t
 | Lightning Deals: Upcoming Deal | Indicator of upcoming Lightning Deals |
 | Buy Box: Is FBA | Indicator whether the Buy Box seller uses FBA |
 
-Note: The PRICE variable used in the analysis has been log-transformed to reduce skewness and stabilize the distribution before modeling.
+
+Note: Price-related variables (e.g., PRICE and BUYBOX_PRICE) were log-transformed during preprocessing to reduce skewness and stabilize the distribution for downstream analysis and modeling.
